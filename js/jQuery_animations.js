@@ -39,4 +39,9 @@ $(() => {
         var sortedOutput = $('#sortedOutput');
         sortedOutput.html(arr.join(""));
     }
+
+    function displaySortedOutput(arr) {
+        var sortedOutput = $('#sortedOutput');
+        sortedOutput.html(arr.join(""));
+    }
 });
