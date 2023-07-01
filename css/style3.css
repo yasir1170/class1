@@ -1,0 +1,34 @@
+.heading {
+    color: red;
+    background-image: url('test1.jfif');
+    background-position: center;
+    /*whenever the size of image is small, we need to use below background i.e. repeat and size properties*/
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-color: black;
+    text-align: center;
+    margin: 10px 130px;
+    border: 5px solid red;
+    padding: 10px;
+    width: calc(100% - 100px);
+    display: block;
+    position: relative;
+    
+}
+
+
+.heading:hover {
+    color: black;
+}
+
+#top-heading {
+    border: 5px yellow dashed;
+    text-decoration: underline green; /* adds underline to the text*/
+    font-family: cursive;
+}
+
+/* Different type of separators */
+/* a .heading matlab a element k ander heading class */
+/* a>.heading matlab a element k immediate ander heading class */
+/* a.heading matlab class heading ka a element */
+/* #a,.heading matlab id=a and class= heading dono selectors par style apply karna hai*/

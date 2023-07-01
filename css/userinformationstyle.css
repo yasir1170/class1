@@ -1,0 +1,19 @@
+label{
+transition: 5s;
+}
+
+label:first-child{
+    color:white;
+    font-size: 12px;
+    
+}
+
+label:nth-child(odd){
+    font-weight: bold;
+}
+
+label:hover {
+    color: blue;
+    font-size: 20px;
+    transition: 5s;
+}
